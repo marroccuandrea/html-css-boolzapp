@@ -7,3 +7,26 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+
+.debug{
+    border: 1px solid black;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    margin: 20px auto;
+    width: 1300px;
+    height: 765px;
+}
+
+.container .box-sx{
+    width: 30%;
+    height: 100%;
+}
+.container .box-dx{
+    width: 70%;
+    height: 100%;
+}
