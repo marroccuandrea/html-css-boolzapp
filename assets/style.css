@@ -4,9 +4,19 @@
     box-sizing: border-box;
 }
 
+
 body{
     font-family: 'Lato', sans-serif;
+    height: 100vh;
+    background: linear-gradient(to bottom,
+    #009688 0,
+    #009688 15%,
+    #dadbd3 15%,
+    #dadbd3 100%);
+    overflow: hidden;
 }
+
+/* UTILITY */
 
 .debug{
     border: 1px solid black;
@@ -16,17 +26,96 @@ body{
     display: flex;
 }
 
+.column{
+    flex-direction: column;
+}
+
+/* UTILITY */
+
 .container{
     margin: 20px auto;
     width: 1300px;
-    height: 765px;
+    height: 90vh;
 }
 
-.container .box-sx{
+.container .col-sm{
     width: 30%;
     height: 100%;
 }
-.container .box-dx{
+.container .col-large{
     width: 70%;
     height: 100%;
 }
+
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: #EAE9EA;
+}
+
+.image-top{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+
+.nav-bell{
+    height: 80px;
+    width: 100%;
+    background-color: #74DCFF;
+}
+
+.users{
+    height: calc(100% - 150px);
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.search{
+    height: 35px;
+    margin: 8px;
+    justify-content: space-between;
+}
+
+#cerca{
+    width: 90%;
+}
+
+.user{
+    height: 100%;
+    width: 100%;
+}
+
+.image{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}
+
+.icone{
+    width: calc(100% - 65px);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.text{
+    width: calc(100% - 65px);
+}
+
+.main-chat{
+    height: calc(100% - 140px);
+    overflow-y: auto;
+}
+
+.nav-btm{
+    background-color: #F4EDE8;
+    height: 70px;
+    width: 100%;
+}
+
+/********************************************
+
+                 RESPONSIVE
+
+**********************************************/
