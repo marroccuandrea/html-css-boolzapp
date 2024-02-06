@@ -147,6 +147,7 @@ body{
     height: calc(100% - 70px - 80px - 50px);
     overflow-y: scroll;
     width: 100%;
+    background-color: #EAE9EA;
 }
 
 .search{
@@ -169,9 +170,7 @@ body{
     border-color: transparent;
 }
 
-.users{
-    background-color: #EAE9EA;
-}
+
 
 .user{
     height: 100%;
@@ -198,7 +197,17 @@ body{
 }
 
 .user .text p{
-    color: #747E80
+    color: #C3C7C8
+}
+
+.user .time{
+    width: 35px;
+}
+
+.user .time p{
+    font-size: 0.8rem;
+    color: #C3C7C8;
+    margin-top: 22px;
 }
 
 .col-sm .icone{
@@ -218,7 +227,7 @@ body{
 }
 
 .users .text{
-    width: calc(100% - 50px - 30px - 15px);
+    width: calc(100% - 50px - 30px - 15px - 35px);
 }
 
 .main-chat{
