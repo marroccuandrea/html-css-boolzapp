@@ -71,6 +71,7 @@ body{
     flex-grow: 1;
 }
 
+
 .nav-btm{
     background-color: #F5EEE9;
     height: 70px;
@@ -262,7 +263,54 @@ body{
     background-image: url(/img/mine.jpg);
 }
 
+.main-chat .msg-sent{
+    max-width: 440px;
+    background-color: #C6FAA7;
+    margin-top: 4%;
+    align-self: flex-end;
+    margin-right: 4%;
+    border-radius: 10px;
+    position: relative;
+}
 
+.main-chat .msg-sent .mex, .main-chat .msg-received .mex{
+    margin: 15px 10px 0 15px;
+}
+
+.main-chat .msg-sent .orario{
+    text-align: right;
+    height: 15px;
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: #747E80;
+}
+
+.main-chat .msg-sent i, .main-chat .msg-received i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.main-chat .msg-received{
+    max-width: 440px;
+    background-color: #FFF;
+    margin-top: 4%;
+    align-self: flex-start;
+    margin-left: 4%;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.main-chat .msg-received .orario{
+    text-align: right;
+    height: 15px;
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: #747E80;
+}
 
 /********************************************
 
@@ -284,18 +332,23 @@ body{
         height: 100%;
     }
 
-    .col-sm .users .text, .col-sm .icone, .col-sm .nav-bell, .col-sm .search{
+    .col-sm .users .text, .col-sm .icone, .col-sm .nav-bell, .col-sm .search, .col-sm .time{
         display: none;
     }
 
     .nav{
-        justify-content: center;
+        justify-content: space-between;
     }
 
 }
 
 @media(max-width: 541px){
-    .container .col-sm{
+    .container .col-sm, .nav-btm .emoji, .nav-btm .vocale{
         display: none;
+    }
+
+    .col-large .nav-btm .scrivi{
+        width: 95%;
+        margin: 0 20px;
     }
 }
