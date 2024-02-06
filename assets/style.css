@@ -32,14 +32,20 @@ body{
 
 /* UTILITY */
 
+.main-wrap{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .container{
-    margin: 20px auto;
-    width: 1300px;
-    height: 90vh;
+    width: 80%;
+    height: 95%;
 }
 
 .container .col-sm{
-    width: 30%;
+    width: 380px;
     height: 100%;
 }
 .container .col-large{
@@ -67,19 +73,20 @@ body{
 }
 
 .users{
-    height: calc(100% - 150px);
+    height: calc(100% - 70px - 80px - 50px);
     overflow-y: scroll;
     width: 100%;
 }
 
 .search{
-    height: 35px;
-    margin: 8px;
-    justify-content: space-between;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #cerca{
     width: 90%;
+    height: 35px;
 }
 
 .user{
