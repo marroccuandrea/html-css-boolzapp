@@ -330,7 +330,7 @@ body{
     }
 
     .users{
-        height: 100%;
+        height: calc(100% - 70px);
     }
 
     .col-sm .users .text, .col-sm .icone, .col-sm .nav-bell, .col-sm .search, .col-sm .time{
