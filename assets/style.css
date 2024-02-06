@@ -135,7 +135,7 @@ body{
 .bell{
     height: 50px;
     width: 50px;
-    margin: 10px;
+    margin: 15px;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
@@ -157,6 +157,7 @@ body{
 
 .nav-bell p a{
     color: #747E80;
+    font-size: 0.9rem;
 }
 
 .nav-bell{
@@ -182,12 +183,12 @@ body{
 .search i{
     font-size: 1.2rem;
     background-color: white;
-    padding: 7px 6px 8px 6px;
+    padding: 7px 15px 8px 6px;
     color: #B1B1B1;
 }
 
 #cerca{
-    width: 87%;
+    width: 85%;
     height: 35px;
     border-color: transparent;
 }
@@ -274,7 +275,7 @@ body{
 }
 
 .main-chat .msg-sent .mex, .main-chat .msg-received .mex{
-    margin: 15px 10px 0 15px;
+    margin: 15px 10px;
 }
 
 .main-chat .msg-sent .orario{
