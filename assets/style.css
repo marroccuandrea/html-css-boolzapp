@@ -147,4 +147,8 @@ body{
         display: none;
     }
 
+    .nav{
+        justify-content: center;
+    }
+
 }
