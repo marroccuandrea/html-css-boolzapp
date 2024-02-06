@@ -47,10 +47,12 @@ body{
 .container .col-sm{
     width: 380px;
     height: 100%;
+    flex-shrink: 0;
 }
 .container .col-large{
     width: 70%;
     height: 100%;
+    flex-grow: 1;
 }
 
 .nav{
@@ -126,3 +128,23 @@ body{
                  RESPONSIVE
 
 **********************************************/
+
+@media (max-width: 991px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container .col-sm{
+        width: 90px;
+    }
+
+    .users{
+        height: 100%;
+    }
+
+    .col-sm .users .text, .col-sm .icone, .col-sm .nav-bell, .col-sm .search{
+        display: none;
+    }
+
+}
