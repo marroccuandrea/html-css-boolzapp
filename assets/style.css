@@ -131,11 +131,32 @@ body{
     overflow: hidden;
 }
 
+.bell{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+
+.bell i{
+    position: absolute;
+    top: 22%;
+    left: 16%;
+    color: #74DCFF;
+    font-size: 1.7rem;
+}
+
 .image-top img{
     object-fit: cover;
     width: 100%;
 }
 
+.nav-bell p a{
+    color: #747E80;
+}
 
 .nav-bell{
     height: 80px;
