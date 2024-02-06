@@ -34,6 +34,14 @@ body{
     justify-content: space-between;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
 /* UTILITY */
 
 .main-wrap{
@@ -67,6 +75,10 @@ body{
 
 .col-large .icone{
     align-items: center;
+}
+
+.col-large .accesso p{
+    color: #B1B1B1;
 }
 
 .nav{
